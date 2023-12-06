@@ -11,13 +11,10 @@ def decrypt_caesar_cipher(ciphertext, shift):
 
     return decrypted_message
 
-# Get user input for the message
 encrypted_message = input("Type the message: ")
 
-# Get user input for the key
 shift_amount = int(input("Type the key (a number): "))
 
-# Decrypt the message
 decrypted_message = decrypt_caesar_cipher(encrypted_message, shift_amount)
 
 # Print the results
